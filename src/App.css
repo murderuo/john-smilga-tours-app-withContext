@@ -1,0 +1,49 @@
+@import url('./assets/css/bootstrap.css');
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.c-img {
+  height: 20%;
+  height: 280px;
+  object-fit: cover;
+}
+.c-body {
+}
+.c-title {
+}
+.c-text {
+}
+.tour-price {
+  right: 2%;
+  top: 2%;
+  width: 20%;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.basket {
+  top: 45px;
+  right: 0;
+  width: 300px;
+  height: auto;
+  z-index: 999;
+  background: #ffffff;
+  font-size: 0.65rem;
+  border-radius: 6px;
+}
+
+.basket img {
+  width: 20px;
+  height: 20px;
+}
+
+.basket button {
+  padding: 0.1rem;
+  font-size: small;
+}
